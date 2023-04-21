@@ -7,8 +7,10 @@ repositories {
 }
 
 dependencies {
-    // Add any dependencies here
-}
+    
+    implementation 'org.springframework:spring-core:5.3.9'
+    
+    }
 
 jar {
     manifest {
